@@ -1,0 +1,27 @@
+{
+  "name": "coba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc; node build/server.js",
+    "start:dev": "tsc -w & nodemon build/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^1.7.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4",
+    "sitemap-stream-parser": "^1.4.0",
+    "sitemap-to-array": "^5.0.1",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.2.1",
+    "nodemon": "^1.18.3"
+  }
+}
